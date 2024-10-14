@@ -14,7 +14,7 @@ spec:
         app: guestbook-ui
     spec:
       containers:
-        - image: docker.io/vadimkharincodefresh/rollouts-demo:green
+        - image: docker.io/vadimkharincodefresh/rollouts-demo:blue
           name: guestbook-ui
           ports:
             - containerPort: 80
