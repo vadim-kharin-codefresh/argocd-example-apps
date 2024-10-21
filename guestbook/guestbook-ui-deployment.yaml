@@ -14,7 +14,7 @@ spec:
         app: guestbook-ui
     spec:
       containers:
-        - image: idanarbel/rollouts-demo:red #@sha256:f448eb2be435d0466117acd0162be0e646bc8d4475ce804a8070043f689f4c3d
+        - image: idanarbel/rollouts-demo:green #@sha256:f448eb2be435d0466117acd0162be0e646bc8d4475ce804a8070043f689f4c3d
           name: guestbook-ui
           ports:
             - containerPort: 80
